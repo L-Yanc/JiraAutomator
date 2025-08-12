@@ -26,10 +26,10 @@ Your job:
 - Return the result as a CSV file ready to use with my Jira scripts, without changing column names or adding/removing columns.
 
 Here is my original CSV format:
-<attach CSV file here>
+[attach CSV file here]
 
 Here is my new task list:
-<list tasks here with any special notes on durations or dependencies>"
+[list tasks here with any special notes on durations or dependencies]"
 
 
 - Run the script once you're sure the csv (the Excel file) is perfect.
@@ -173,7 +173,7 @@ python ColumnUpdater.py --csv YOUR.csv --project-key YOURKEY --startdate-field c
 ### C) DependencyUpdater — link by summary (A is **blocked by** B)
 ```bash
 python DependencyUpdater.py --csv YOUR.csv --project-key YOURKEY
-# add --dry-run to simulate
+# add --dry-run to
 ```
 
 - Finds Jira keys by summary (`Summary` and `Depends on`) and links them with a “Blocks” relationship (inward = source, outward = depends-on)
