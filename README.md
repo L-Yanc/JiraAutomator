@@ -32,9 +32,11 @@ Here is my original CSV format:
 Here is my new task list:
 [list tasks here with any special notes on durations or dependencies]
 ```
-
+#
 
 - Run the script once you're sure the csv (the Excel file) is perfect.
+
+*NOTE: If you have repetitive subtasks (like Design/Approval on each task for me) there is a separate GPT input so contact me (Lara)*
 
 ---
 
