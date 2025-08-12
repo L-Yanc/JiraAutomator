@@ -13,9 +13,10 @@ Automates importing tasks/subtasks into Jira from a CSV, updating issue fields (
 ## 0) Before Running
 - Create a list of tasks to be added to the Gantt Chart.
 - Determine what subtasks should be common for all (Design and Approval for us)
-- Give GPT the file names "FS_EV_Gantt_Chart.csv" and your list of tasks with the following prompt:
+- Give GPT (or AI of choice) the file names "FS_EV_Gantt_Chart.csv" and your list of tasks with the following prompt:
 
-"I’m sending you a CSV file that defines the exact format I want (column names, order, and any sample rows). 
+```bash
+I’m sending you a CSV file that defines the exact format I want (column names, order, and any sample rows). 
 I will also send you a list of tasks that need to be added to a new CSV in the exact same format.  
 
 Your job:
@@ -29,7 +30,8 @@ Here is my original CSV format:
 [attach CSV file here]
 
 Here is my new task list:
-[list tasks here with any special notes on durations or dependencies]"
+[list tasks here with any special notes on durations or dependencies]
+```
 
 
 - Run the script once you're sure the csv (the Excel file) is perfect.
