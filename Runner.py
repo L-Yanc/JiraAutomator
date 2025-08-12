@@ -16,6 +16,7 @@ def main():
     # Parse arguments for the runner
     parser = argparse.ArgumentParser(description="Run Importer, ColumnUpdater, and DependencyUpdater scripts.")
     parser.add_argument("--dry-run", action="store_true", help="Run all scripts in dry-run mode.")
+    parser.add_argument("--no-wipe", action="store_true", help="Do not wipe the project before importing.")
     args = parser.parse_args()
 
     # Define the CSV file and project key
@@ -24,13 +25,14 @@ def main():
 
     # Determine if dry-run mode is enabled
     dry_run_flag = ["--dry-run"] if args.dry_run else []
+    no_wipe_flag = ["--no-wipe"] if args.no_wipe else []
 
     # Run Importer.py
     print("Running Importer.py...")
     run_script("Importer.py", [
         "--csv", csv_file,
         "--project-key", project_key
-    ] + dry_run_flag)
+    ] + dry_run_flag + no_wipe_flag)
 
     # Run ColumnUpdater.py
     print("Running ColumnUpdater.py...")
