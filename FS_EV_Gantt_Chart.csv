@@ -1,0 +1,208 @@
+﻿Summary,Description,Issue Type,Start date,Due date,Estimated team members,Depends on,Task phase
+Chassis,Chassis & Body (Design Phase),Task,9/22/2025,10/14/2025,2.0,,
+Design,Chassis (Design Phase),Sub-task,9/22/2025,10/6/2025,2.0,,Design
+Approval,Chassis (Approval Phase),Sub-task,10/7/2025,10/14/2025,1.0,Design,Approval
+Chassis tabs,Chassis & Body (Design Phase),Task,10/13/2025,10/21/2025,1.0,Chassis,
+Design,Chassis tabs (Design Phase),Sub-task,10/13/2025,10/13/2025,1.0,Chassis,Design
+Approval,Chassis tabs (Approval Phase),Sub-task,10/14/2025,10/21/2025,1.0,Design,Approval
+Main floor,Chassis & Body (Design Phase),Task,10/20/2025,11/18/2025,2.0,Chassis,
+Design,Main floor (Design Phase),Sub-task,10/20/2025,11/10/2025,2.0,Chassis tabs,Design
+Approval,Main floor (Approval Phase),Sub-task,11/11/2025,11/18/2025,1.0,Design,Approval
+Floor panels,Chassis & Body (Design Phase),Task,11/17/2025,12/9/2025,2.0,Chassis tabs,
+Design,Floor panels (Design Phase),Sub-task,11/17/2025,12/1/2025,2.0,Main floor,Design
+Approval,Floor panels (Approval Phase),Sub-task,12/2/2025,12/9/2025,1.0,Design,Approval
+Anti-intrusion plate,Chassis & Body (Design Phase),Task,12/8/2025,12/16/2025,1.0,Main floor,
+Design,Anti-intrusion plate (Design Phase),Sub-task,12/8/2025,12/8/2025,1.0,Floor panels,Design
+Approval,Anti-intrusion plate (Approval Phase),Sub-task,12/9/2025,12/16/2025,1.0,Design,Approval
+Skid plates,Chassis & Body (Design Phase),Task,1/12/2026,1/20/2026,1.0,Anti-intrusion plate,
+Design,Skid plates (Design Phase),Sub-task,1/12/2026,1/12/2026,1.0,Anti-intrusion plate,Design
+Approval,Skid plates (Approval Phase),Sub-task,1/13/2026,1/20/2026,1.0,Design,Approval
+Jackbar,Chassis & Body (Design Phase),Task,1/19/2026,2/10/2026,2.0,Anti-intrusion plate,
+Design,Jackbar (Design Phase),Sub-task,1/19/2026,2/2/2026,2.0,Skid plates,Design
+Approval,Jackbar (Approval Phase),Sub-task,2/3/2026,2/10/2026,1.0,Design,Approval
+Impact attenuator,Chassis & Body (Design Phase),Task,2/9/2026,3/3/2026,2.0,Skid plates,
+Design,Impact attenuator (Design Phase),Sub-task,2/9/2026,2/23/2026,2.0,Jackbar,Design
+Approval,Impact attenuator (Approval Phase),Sub-task,2/24/2026,3/3/2026,1.0,Design,Approval
+Pushbar,Chassis & Body (Design Phase),Task,3/2/2026,3/24/2026,2.0,Jackbar,
+Design,Pushbar (Design Phase),Sub-task,3/2/2026,3/16/2026,2.0,Impact attenuator,Design
+Approval,Pushbar (Approval Phase),Sub-task,3/17/2026,3/24/2026,1.0,Design,Approval
+Safety harness,Chassis & Body (Design Phase),Task,3/23/2026,5/12/2026,4.0,Impact attenuator,
+Design,Safety harness (Design Phase),Sub-task,3/23/2026,5/4/2026,4.0,Pushbar,Design
+Approval,Safety harness (Approval Phase),Sub-task,5/5/2026,5/12/2026,1.0,Design,Approval
+Headrest,Chassis & Body (Design Phase),Task,5/11/2026,6/2/2026,2.0,Pushbar,
+Design,Headrest (Design Phase),Sub-task,5/11/2026,5/25/2026,2.0,Safety harness,Design
+Approval,Headrest (Approval Phase),Sub-task,5/26/2026,6/2/2026,1.0,Design,Approval
+Head restraint tab,Chassis & Body (Design Phase),Task,6/1/2026,9/9/2026,2.0,Safety harness,
+Design,Head restraint tab (Design Phase),Sub-task,6/1/2026,9/1/2026,2.0,Headrest,Design
+Approval,Head restraint tab (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Driver seat,Chassis & Body (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Driver seat (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Head restraint tab,Design
+Approval,Driver seat (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Pedal box mounting,Chassis & Body (Design Phase),Task,9/1/2026,9/9/2026,2.0,Headrest,
+Design,Pedal box mounting (Design Phase),Sub-task,9/1/2026,9/1/2026,2.0,Driver seat,Design
+Approval,Pedal box mounting (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Battery mount,Chassis & Body (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Battery mount (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Pedal box mounting,Design
+Approval,Battery mount (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Body panels,Chassis & Body (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Body panels (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Battery mount,Design
+Approval,Body panels (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Nose cone,Chassis & Body (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Nose cone (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Body panels,Design
+Approval,Nose cone (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Sidepods / Cooling,Chassis & Body (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Sidepods / Cooling (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Nose cone,Design
+Approval,Sidepods / Cooling (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Front Suspension,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Front Suspension (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,,Design
+Approval,Front Suspension (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Suspension plate,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Suspension plate (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Front Suspension,Design
+Approval,Suspension plate (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Rocker,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Rocker (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Suspension plate,Design
+Approval,Rocker (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Pushrod,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Pushrod (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Rocker,Design
+Approval,Pushrod (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Tie rod,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Tie rod (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Pushrod,Design
+Approval,Tie rod (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Upper bearing housing,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Upper bearing housing (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Tie rod,Design
+Approval,Upper bearing housing (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Lower bearing housing,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Lower bearing housing (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Upper bearing housing,Design
+Approval,Lower bearing housing (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Front wheel hubs,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Front wheel hubs (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Lower bearing housing,Design
+Approval,Front wheel hubs (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+"Anti-roll bar (Carryover, if used)",Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,"Anti-roll bar (Carryover, if used) (Design Phase)",Sub-task,9/1/2026,9/1/2026,1.0,Front wheel hubs,Design
+Approval,"Anti-roll bar (Carryover, if used) (Approval Phase)",Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Rear wheel hubs,Suspensions (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Rear wheel hubs (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,"Anti-roll bar (Carryover, if used)",Design
+Approval,Rear wheel hubs (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Brake/sprocket,Wheels & Tractive System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Brake/sprocket (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,,Design
+Approval,Brake/sprocket (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Driveshafts,Wheels & Tractive System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Driveshafts (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Brake/sprocket,Design
+Approval,Driveshafts (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Differential,Wheels & Tractive System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Differential (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Driveshafts,Design
+Approval,Differential (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Wheel hub integration,Wheels & Tractive System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Wheel hub integration (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Differential,Design
+Approval,Wheel hub integration (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Steering wheel,Steering System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Steering wheel (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,,Design
+Approval,Steering wheel (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Steering column,Steering System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Steering column (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Steering wheel,Design
+Approval,Steering column (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Steering rack,Steering System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Steering rack (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Steering column,Design
+Approval,Steering rack (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Quick release,Steering System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Quick release (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Steering rack,Design
+Approval,Quick release (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Bevel box,Steering System (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Bevel box (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Quick release,Design
+Approval,Bevel box (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Battery modules / cell bricks,EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Battery modules / cell bricks (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,,Design
+Approval,Battery modules / cell bricks (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Accumulator container / housing,EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Accumulator container / housing (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Battery modules / cell bricks,Design
+Approval,Accumulator container / housing (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+BMS - AMS,EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,BMS - AMS (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Accumulator container / housing,Design
+Approval,BMS - AMS (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Fusebox (New or redesign to EV spec),EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Fusebox (New or redesign to EV spec) (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,BMS - AMS,Design
+Approval,Fusebox (New or redesign to EV spec) (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Precharge circuit,EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Precharge circuit (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Fusebox (New or redesign to EV spec),Design
+Approval,Precharge circuit (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+"Shutdown circuit (TSMS, BSPD, inertia switch)",EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,"Shutdown circuit (TSMS, BSPD, inertia switch) (Design Phase)",Sub-task,9/1/2026,9/1/2026,1.0,Precharge circuit,Design
+Approval,"Shutdown circuit (TSMS, BSPD, inertia switch) (Approval Phase)",Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+IMD (Insulation Monitoring Device),EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,IMD (Insulation Monitoring Device) (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,"Shutdown circuit (TSMS, BSPD, inertia switch)",Design
+Approval,IMD (Insulation Monitoring Device) (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+HV wiring layout,EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,HV wiring layout (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,IMD (Insulation Monitoring Device),Design
+Approval,HV wiring layout (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+HVIL (High Voltage Interlock Loop) integration,EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,HVIL (High Voltage Interlock Loop) integration (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,HV wiring layout,Design
+Approval,HVIL (High Voltage Interlock Loop) integration (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+TSAL (Tractive System Active Light),EV Powertrain (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,TSAL (Tractive System Active Light) (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,HVIL (High Voltage Interlock Loop) integration,Design
+Approval,TSAL (Tractive System Active Light) (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Electric motor mount,Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Electric motor mount (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,,Design
+Approval,Electric motor mount (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Inverter mount,Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Inverter mount (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Electric motor mount,Design
+Approval,Inverter mount (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Transmission,Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Transmission (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Inverter mount,Design
+Approval,Transmission (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Inverter plate (New; replaces rectifier tab),Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Inverter plate (New; replaces rectifier tab) (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Transmission,Design
+Approval,Inverter plate (New; replaces rectifier tab) (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Chainguard,Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Chainguard (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Inverter plate (New; replaces rectifier tab),Design
+Approval,Chainguard (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Motor guard,Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Motor guard (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Chainguard,Design
+Approval,Motor guard (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Battery Cooling System (Redesign if applicable),Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Battery Cooling System (Redesign if applicable) (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Motor guard,Design
+Approval,Battery Cooling System (Redesign if applicable) (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Chain tensioner,Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Chain tensioner (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Battery Cooling System (Redesign if applicable),Design
+Approval,Chain tensioner (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+1-speed gearbox,Motor & Inverter (Design Phase),Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,1-speed gearbox (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Chain tensioner,Design
+Approval,1-speed gearbox (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Loom,"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Loom (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,,Design
+Approval,Loom (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+CAN topology and connectors,"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,CAN topology and connectors (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Loom,Design
+Approval,CAN topology and connectors (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+CAN breakout boards,"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,CAN breakout boards (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,CAN topology and connectors,Design
+Approval,CAN breakout boards (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+"Safety switch wiring (TSMS, shutdowns)","LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,"Safety switch wiring (TSMS, shutdowns) (Design Phase)",Sub-task,9/1/2026,9/1/2026,1.0,CAN breakout boards,Design
+Approval,"Safety switch wiring (TSMS, shutdowns) (Approval Phase)",Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+TSAL LED and dashboard indicators,"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,TSAL LED and dashboard indicators (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,"Safety switch wiring (TSMS, shutdowns)",Design
+Approval,TSAL LED and dashboard indicators (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Throttle pedal sensor (APPS),"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Throttle pedal sensor (APPS) (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,TSAL LED and dashboard indicators,Design
+Approval,Throttle pedal sensor (APPS) (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Brake travel sensor,"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Brake travel sensor (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Throttle pedal sensor (APPS),Design
+Approval,Brake travel sensor (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Suspension travel sensors,"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Suspension travel sensors (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Brake travel sensor,Design
+Approval,Suspension travel sensors (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+Steering angle sensor,"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,Steering angle sensor (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Suspension travel sensors,Design
+Approval,Steering angle sensor (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+LV current and voltage sensors,"LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,LV current and voltage sensors (Design Phase),Sub-task,9/1/2026,9/1/2026,1.0,Steering angle sensor,Design
+Approval,LV current and voltage sensors (Approval Phase),Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+"Temperature sensors (motor, inverter, battery)","LOOM, Dash & LV Sensors (Design Phase)",Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design,"Temperature sensors (motor, inverter, battery) (Design Phase)",Sub-task,9/1/2026,9/1/2026,1.0,LV current and voltage sensors,Design
+Approval,"Temperature sensors (motor, inverter, battery) (Approval Phase)",Sub-task,9/2/2026,9/9/2026,1.0,Design,Approval
+BPP,Competition,Task,9/1/2026,9/9/2026,1.0,Headrest,
+Lap-Time Simulation,Competition,Task,9/1/2026,9/9/2026,1.0,Headrest,
+Design Judging Prep,Competition,Task,9/1/2026,9/9/2026,1.0,Headrest,
+Cost Judging Prep,Competition,Task,9/1/2026,9/9/2026,1.0,Headrest,
+,,,,,,,
+,,,,,,,
